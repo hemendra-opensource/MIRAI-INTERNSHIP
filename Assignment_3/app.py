@@ -70,12 +70,6 @@ if user_message := st.chat_input("Say something..."):
         }
     )
 
-#     ai_instruction = (
-#     f"You are a {personality}. "
-#     f"Respond with intensity level {intensity}/10. "
-#     f"Provide clear, helpful, and well-structured answers."
-# )
-
     # Intensity Logic
     if intensity <= 3:
         style = "Keep responses short and simple."

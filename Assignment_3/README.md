@@ -1,6 +1,6 @@
-# 🧠 Memory Vault – Stateful Multiverse Chatbot
+# Memory Vault – Stateful Multiverse Chatbot
 
-## 📌 Overview
+## Overview
 
 Memory Vault is an upgraded version of the Multiverse Chatbot developed as part of the **MirAI School of Technology – Virtual Summer Internship 2026 (AI Builder Track)**.
 
@@ -10,7 +10,7 @@ The chatbot is powered by **Google Gemini 2.5 Flash** and provides dynamic respo
 
 ---
 
-## 🎯 Assignment Objective
+## Assignment Objective
 
 Streamlit reruns the entire script whenever a user interacts with the application. This behavior causes chat history to disappear unless a persistent state management mechanism is implemented.
 
@@ -24,13 +24,13 @@ The result is a chatbot that remembers previous conversations and delivers a mod
 
 ---
 
-## ✨ Features
+## Features
 
-### 🗂 Persistent Chat Memory
+### Persistent Chat Memory
 
 Stores user and assistant messages using Streamlit Session State, ensuring conversations remain visible across reruns.
 
-### 💬 Modern Chat Interface
+### Modern Chat Interface
 
 Uses Streamlit's native chat components:
 
@@ -39,7 +39,7 @@ Uses Streamlit's native chat components:
 
 for a clean and intuitive messaging experience.
 
-### 🎭 AI Personality Selection
+### AI Personality Selection
 
 Users can choose different chatbot personalities from the sidebar:
 
@@ -53,13 +53,13 @@ Users can choose different chatbot personalities from the sidebar:
 
 A slider allows users to adjust the intensity of the selected personality, resulting in varying response styles and levels of detail.
 
-### 🤖 Gemini AI Integration
+### Gemini AI Integration
 
 Responses are generated using Google's Gemini 2.5 Flash model through the Gemini API.
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```text
 User Message
@@ -85,7 +85,7 @@ Render Entire Chat History
 
 ---
 
-## 🧠 How Session State Works
+## How Session State Works
 
 When Streamlit reruns a script, all normal variables are recreated.
 
@@ -106,9 +106,9 @@ This allows the chatbot to reconstruct the full conversation whenever the page r
 
 ---
 
-## 📋 Assignment Requirements Implemented
+## Assignment Requirements Implemented
 
-### ✅ Task 1 – Initialize Memory Vault
+### Task 1 – Initialize Memory Vault
 
 Created a persistent message store using:
 
@@ -116,7 +116,7 @@ Created a persistent message store using:
 st.session_state.messages
 ```
 
-### ✅ Task 2 – Render Chat History
+### Task 2 – Render Chat History
 
 Displays all previous messages during every rerun using:
 
@@ -124,7 +124,7 @@ Displays all previous messages during every rerun using:
 for message in st.session_state.messages:
 ```
 
-### ✅ Task 3 – Upgrade Input UI
+### Task 3 – Upgrade Input UI
 
 Replaced:
 
@@ -139,13 +139,13 @@ with:
 st.chat_input()
 ```
 
-### ✅ Task 4 – Save Messages
+### Task 4 – Save Messages
 
 Both user messages and AI responses are stored in Session State.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Python
 * Streamlit
@@ -154,7 +154,7 @@ Both user messages and AI responses are stored in Session State.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Memory-Vault-Stateful-Chatbot/
@@ -168,7 +168,7 @@ Memory-Vault-Stateful-Chatbot/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone Repository
 
@@ -199,7 +199,7 @@ streamlit run app.py
 
 ---
 
-## 🎥 Demonstration
+## Demonstration
 
 The submitted demo video demonstrates:
 
@@ -211,7 +211,7 @@ The submitted demo video demonstrates:
 
 ---
 
-## 📚 Key Concepts Learned
+## Key Concepts Learned
 
 * Stateful vs Stateless Applications
 * Streamlit Session State
@@ -223,16 +223,17 @@ The submitted demo video demonstrates:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Hemendra Sharma**
+Github-link : https://github.com/hemendra-opensource/MIRAI-INTERNSHIP/tree/main/Assignment_3
 
 B.Tech Computer Science & Engineering
 Aspiring Full Stack Developer | AI Enthusiast | DSA Learner
 
 ---
 
-## 🏆 Internship
+## Internship
 
 **MirAI School of Technology**
 **Virtual Summer Internship 2026 – AI Builder Track**
