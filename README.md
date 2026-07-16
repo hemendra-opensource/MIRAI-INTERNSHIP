@@ -144,4 +144,4 @@ B.Tech Computer Science & Engineering
 
 Aspiring Full Stack Developer | Java | Python | DSA | AI & Data Engineering Enthusiast
 
-GitHub: https://github.com/hemendra-opensource
+GitHub: https://github.com/hemendra-opensource/MIRAI-INTERNSHIP
